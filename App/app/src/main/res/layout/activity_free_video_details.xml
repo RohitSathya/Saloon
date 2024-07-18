@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <!-- Video Thumbnail -->
+    <ImageView
+        android:id="@+id/imageViewThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Video Thumbnail" />
+
+    <!-- Video Title -->
+    <TextView
+        android:id="@+id/textViewVideoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Title"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold" />
+
+    <!-- Play Button with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <!-- Play Button -->
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Watch Now"
+            android:textColor="@color/white"
+            android:backgroundTint="#A020F0"
+            android:padding="8dp" />
+
+
+
+
+    </LinearLayout>
+
+    <!-- Category and Language -->
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: womenhaircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HairStyle: Haircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HairStyle: Haircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HairStyle: Haircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HairStyle: Haircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HairStyle: Haircut"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewEpisodeNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Episode Number"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone" />
+</LinearLayout>

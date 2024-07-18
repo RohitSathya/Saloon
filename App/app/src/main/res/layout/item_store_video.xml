@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="thumbnail"
+        android:background="@drawable/video_thumbnail_background"/>
+
+    <!-- Semi-transparent overlay for better visibility of the lock icon -->
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignBottom="@id/video_thumbnail"
+        android:background="#80000000"/>
+
+    <!-- Enlarged lock icon -->
+    <ImageView
+        android:id="@+id/lock_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/lock_icon"
+        android:tint="@android:color/white"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_thumbnail"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+</RelativeLayout>

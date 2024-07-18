@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Plan"
+        style="@style/DialogTitle"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium Monthly"
+        style="@style/DialogText"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ad-Free (except sports live)"
+        style="@style/DialogText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Includes all Premium content"
+        style="@style/DialogText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Any 1 device at a time (up to Asli 4K quality)"
+        style="@style/DialogText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download and watch anytime"
+        style="@style/DialogText"/>
+
+    <Button
+        android:id="@+id/basic_plan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹1800/month"
+        style="@style/DialogButton"
+        android:backgroundTint="@color/design_default_color_primary"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/continue_free_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue Free"
+        style="@style/DialogButton"
+        android:backgroundTint="@color/design_default_color_primary"/>
+</LinearLayout>

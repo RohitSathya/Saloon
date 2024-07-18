@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/button_navigate_to_membership"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate to Videos Upload" />
+
+    <Button
+        android:id="@+id/button_navigate_to_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate to Products Upload" />
+    <Button
+        android:id="@+id/button_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat With Users" />
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Orders" />
+
+
+
+
+</LinearLayout>

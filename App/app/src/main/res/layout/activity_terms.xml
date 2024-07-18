@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Introduction"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to our app! These terms and conditions outline the rules and regulations for the use of our service."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. User Agreement"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By accessing this app, you accept these terms and conditions. Do not continue to use the app if you do not agree to all the terms and conditions stated on this page."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. License"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unless otherwise stated, we own the intellectual property rights for all material on the app. All intellectual property rights are reserved."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. User Responsibilities"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must use the app in a manner consistent with any and all applicable laws and regulations. You must not use the app to engage in any illegal or harmful activities."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Limitation of Liability"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We will not be held responsible for any damages arising out of or in connection with your use of the app. This includes, but is not limited to, direct, indirect, incidental, punitive, and consequential damages."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. No Refund Policy"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All purchases made through the app are final and non-refundable. Please review your order carefully before completing the purchase."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Age Restriction"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must be at least 18 years old to use this app. By using this app, you represent and warrant that you are at least 18 years old."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Changes to Terms"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We reserve the right to revise these terms and conditions at any time. By using the app, you are expected to review these terms on a regular basis."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Contact Us"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center" />
+</LinearLayout>

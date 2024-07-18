@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Define the missing style -->
+    <style name="Widget.Theme.Va.ActionBar.Fullscreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomGoogleSignInButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="CustomSearchView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlActivated">#00FF00</item> <!-- icon color -->
+        <item name="android:textColor">@color/black</item> <!-- text color -->
+        <item name="android:textColorHint">@color/red</item> <!-- hint color -->
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="DialogButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/button_background_primary</item>
+    </style>
+
+
+    <style name="SearchViewHint" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+</resources>

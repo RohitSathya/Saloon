@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorDownload">#FF5722</color> <!-- Custom color for download button -->
+    <color name="colorWatchlist">#FFC107</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="grey">#B0B0B0</color>
+    <color name="background">#F5F5F5</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorSecondary">#03A9F4</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="design_default_color_primary">#007bff</color>
+    <color name="design_default_color_secondary">#28a745</color>
+    <color name="design_default_color_accent">#e60000</color>
+    <color name="red">#FF0000</color>
+    <color name="table_background">#F5F5F5</color>
+    <color name="row_background">#FFFFFF</color>
+    <color name="header_background">#6200EE</color>
+    <color name="cell_background">#E0E0E0</color>
+    <color name="text_color">#000000</color>
+    <color name="border_color">#BDBDBD</color>
+    <color name="row_background_pressed">#E0E0E0</color>
+    <color name="purple">#A020F0</color>
+</resources>

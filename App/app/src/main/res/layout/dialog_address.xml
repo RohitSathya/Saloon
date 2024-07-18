@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/text_view_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/text_view_door_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Door No"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/text_view_mobile_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/button_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Payment"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/button_add_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Address"
+            android:padding="8dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>

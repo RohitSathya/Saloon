@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_video_play"
+        android:title="Free" />
+<!--    <item-->
+<!--        android:id="@+id/nav_find"-->
+<!--        android:icon="@drawable/ic_search"-->
+<!--        android:title="Find" />-->
+    <item
+        android:id="@+id/nav_store"
+        android:icon="@drawable/ic_store"
+        android:title="Rent Videos" />
+    <item
+        android:id="@+id/nav_membership"
+        android:icon="@drawable/ic_membership"
+        android:title="MemberShip" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+</menu>

@@ -1,0 +1,52 @@
+<resources>
+    <string-array name="video_types">
+        <item>Free</item>
+        <item>Paid</item>
+        <item>Rent</item>
+    </string-array>
+    <string-array name="content_types">
+        <item>Video</item>
+        <item>Series</item>
+    </string-array>
+    <string-array name="genres">
+        <item>Haircut</item>
+        <item>Hair Play</item>
+    </string-array>
+    <string-array name="sources">
+        <item>Link</item>
+        <item>Gallery Video</item>
+    </string-array>
+    <string-array name="channel_names">
+        <item>Desi Makeover</item>
+        <item>Indian HairCut</item>
+        <item>Girls HairCut</item>
+        <item>HrmanTv</item>
+        <item>WomenHaircut</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Bob</item>
+        <item>Headshave</item>
+        <item>Trim</item>
+        <item>Layered</item>
+        <item>Buzz Cut</item>
+        <item>Fade</item>
+        <item>Undercut</item>
+        <item>Pixie</item>
+        <item>Ponytail</item>
+        <item>Crew Cut</item>
+        <item>Mohawk</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Scissor Cut</item>
+        <item>Razor Cut</item>
+        <item>Clipper Cut</item>
+        <item>Thinning</item>
+        <item>Texturizing</item>
+        <item>Blunt Cut</item>
+        <item>Layer Cut</item>
+        <item>Point Cut</item>
+        <item>Slide Cut</item>
+        <item>Disconnected Cut</item>
+    </string-array>
+</resources>
+

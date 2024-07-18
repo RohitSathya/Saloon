@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/text_view_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock Video"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock this video by purchasing the plan."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/colorSecondary"/>
+
+    <Button
+        android:id="@+id/purchase_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

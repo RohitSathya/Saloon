@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WomenHairCut</string>
+    <string name="default_web_client_id">158225737953-7mq96detj9jmpfkvb4i2jbk44ub14eap.apps.googleusercontent.com</string>
+    <string name="title_activity_full_screen_video">FullScreenVideoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="membership_success">Membership Successful</string>
+    <string name="membership_success_message">You have successfully purchased the membership.</string>
+    <string name="cancel_membership">Cancel Membership</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ProductUploadActivity">
+
+    <EditText
+        android:id="@+id/edit_text_product_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Title" />
+
+    <EditText
+        android:id="@+id/edit_text_product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Product Image" />
+
+    <Button
+        android:id="@+id/button_choose_sample_image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Sample Image 1" />
+
+    <Button
+        android:id="@+id/button_choose_sample_image2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Sample Image 2" />
+
+    <Button
+        android:id="@+id/button_choose_sample_image3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Sample Image 3" />
+
+    <Button
+        android:id="@+id/button_choose_trailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Trailer" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="thumbnail"
+        android:background="@drawable/video_thumbnail_background" />
+
+    <!-- Semi-transparent overlay for better visibility of the lock icon -->
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignBottom="@id/video_thumbnail"
+        android:background="#80000000" />
+
+    <!-- Enlarged lock icon with red color -->
+    <ImageView
+        android:id="@+id/lock_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="lock icon"
+        />
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_thumbnail"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00FF00"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+    <!-- Attractive Remove Button -->
+    <Button
+        android:id="@+id/buttonRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/video_thumbnail"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:backgroundTint="@color/red"
+        android:elevation="4dp"
+        android:textStyle="bold" />
+</RelativeLayout>

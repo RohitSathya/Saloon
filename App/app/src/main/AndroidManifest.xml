@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Va"
+        tools:targetApi="31">
+        <activity
+            android:name=".Decide"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.va.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".FreeVideoDetailsActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".YouTubePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenMediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenImageViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentVideoDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidSeriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WDVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrailerVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidSelectContentTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreeSelectContentTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectContentTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentVideoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentCategoryListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentChannelListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidVideoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidCategoryListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidChannelListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChannelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreeVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChannelListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gd"
+            android:exported="false" />
+        <activity
+            android:name=".MembershipVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MembershipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StorePaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReelVideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_full_screen_video"
+            android:theme="@style/Theme.Va.Fullscreen" />
+        <activity
+            android:name=".ReelVideoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ReelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddressActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurchasesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WatchlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivateTvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChannelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenreDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
